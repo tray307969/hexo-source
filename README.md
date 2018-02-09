@@ -1,2 +1,2 @@
 # Source project of my Hexo [Blog](https://tray307969.github.io/)!
-[![Build status](https://ci.appveyor.com/api/projects/status/b0wack7uxrvifijj/branch/files?svg=true)](https://ci.appveyor.com/project/tray307969/hexo-source)
+[![Build status](https://ci.appveyor.com/api/projects/status/y8qr7q6ro36jlo3f/branch/master?svg=true)](https://ci.appveyor.com/project/tray307969/hexo-source/branch/master)
