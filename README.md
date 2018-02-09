@@ -1,1 +1,2 @@
-# Source project of my Hexo [Blog](https://tray307969.github.io/)! [![Build status](https://ci.appveyor.com/api/projects/status/b0wack7uxrvifijj/branch/files?svg=true)](https://ci.appveyor.com/project/ElderJames/elderjames-github-io/branch/files)
+# Source project of my Hexo [Blog](https://tray307969.github.io/)!
+[![Build status](https://ci.appveyor.com/api/projects/status/b0wack7uxrvifijj/branch/files?svg=true)](https://ci.appveyor.com/project/tray307969/hexo-source)
