@@ -1,21 +1,28 @@
 clone_depth: 5
-# 這裡是限制了只編譯有源文件的分支，這樣在創建了其它分支時就不會再次編譯了
+
+
 branches:
   only:
   - files
+
 environment:
   access_token:
+    nodejs_version: "9.5.0"
     secure: LjykSmsHe8K2gneHXqRWFZKG0lBRH0Igrz4cyf/cwsMbiddLjKHZnufpJv3VgObY
+
 install:
-  - ps: Install-Product node 9.5
+  - ps: Install-Product node $env:nodejs_version
   - node --version
   - npm --version
   - npm install
   - npm install hexo-cli -g
+
 build_script:
   - hexo generate
+
 artifacts:
   - path: public
+
 on_success:
   - git config --global credential.helper store
   - ps: Add-Content "$env:USERPROFILE\.git-credentials" "https://$($env:access_token):x-oauth-basic@github.com`n"
