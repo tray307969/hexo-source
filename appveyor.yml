@@ -7,7 +7,7 @@ branches:
 
 environment:
   access_token:
-    nodejs_version: "9.5.0"
+    nodejs_version: "6"
     secure: LjykSmsHe8K2gneHXqRWFZKG0lBRH0Igrz4cyf/cwsMbiddLjKHZnufpJv3VgObY
 
 install:
